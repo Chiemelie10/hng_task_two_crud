@@ -13,5 +13,5 @@ def handle_invalid_route(error):
     """
     return {'error': str(error)}, 404
 
-# if __name__ == '__main__':
-#     app.run(host='0.0.0.0', debug=True)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', debug=True)

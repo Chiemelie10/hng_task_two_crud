@@ -18,13 +18,14 @@ Before you begin, ensure you have the following prerequisites installed in your 
 - Python (3.8 or higher)
 - pip (Python package manager)
 - pipenv
+- git bash terminal (For windows)
 
 ## Installation
 1. Clone this repository:
 git clone
 https://github.com/Chiemelie10/hng_task_two_crud
 
-2. Create a virtual environment (optional but recommended):
+2. Create a virtual environment:
 Run the command "pipenv shell" while in the directory you just cloned.
 
 ## Usage

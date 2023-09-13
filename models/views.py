@@ -36,8 +36,6 @@ class PersonResource(Resource):
         parser.add_argument('name', type=str, required=True, help="Name is required.")
         args = parser.parse_args()
 
-        if 'user_id' in args:
-            return {}
         name = args['name']
 
         new_person = Person(name=name)
@@ -56,7 +54,7 @@ class PersonResource(Resource):
         person = Person.query.get(user_id)
 
         if not person:
-            return {'error: User not found'}, 404
+            return {'error': 'User not found'}, 404
 
         parser = reqparse.RequestParser()
         parser.add_argument('name', type=str, required=True, help="Name is required.")
@@ -102,4 +100,4 @@ class PersonResource(Resource):
         db.session.delete(person)
         db.session.commit()
 
-        return {'message': f'User {person.name} deleted.'}
+        return {'message': f'User {person.name} successfully deleted.'}
