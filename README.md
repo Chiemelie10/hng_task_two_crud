@@ -2,6 +2,7 @@ This README provides the project description and instructions on how to set up, 
 
 ## Table of Contents
 - [Description of the project](#description-of-the-project)
+- [Link to UML class diagram](#link-to-uml-class-diagram)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,6 +13,9 @@ This README provides the project description and instructions on how to set up, 
 
 ## Description of the project
 The goal of the project is to build a simple REST API, interfacing with database of choice, in this case an sqlite database, capable of Create, Read, Update, and Delete (CRUD) operations on a "person" operations.
+
+## Link to UML class diagram
+https://docs.google.com/drawings/d/1-nPxFs_I5geLtUKT917wlgDJXEPnc4rq2BNvXwAf6BY/edit?usp=drivesdk
 
 ## Prerequisites
 Before you begin, ensure you have the following prerequisites installed in your system:
